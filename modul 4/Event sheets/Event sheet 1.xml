@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="score" sid="215919005864828" static="0" type="number">0</variable>
+        <event-block sid="208142988581453">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="315240027791749" type="player">
+                    <param id="0" name="Object">koin</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="466409726144596" type="koin" />
+                <action id="-10" name="Add to" sid="697111770353140" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="455348481529562">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="485919956799101" type="player">
+                    <param id="0" name="Object">koin2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="860392862760271" type="koin2" />
+                <action id="-10" name="Add to" sid="221354872876935" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="640774662693401">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="544988854668369" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="879739536543794" type="score">
+                    <param id="0" name="Text">score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="657179835622267">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="419616976091499" type="player">
+                    <param id="0" name="Object">jebakan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="235284638863153" type="player">
+                    <param id="0" name="X">83</param>
+                    <param id="1" name="Y">406</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="810724251581879">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="887845486495206" type="player">
+                    <param id="0" name="Object">koin3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="601474481675357" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="298563926988458" type="koin3" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

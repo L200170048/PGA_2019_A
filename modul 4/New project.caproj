@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3ezll9l6bgpsn</unique-id>
+    <saved-with-version>27200</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">Off</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Firefox</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="328952991064878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="162200945795717" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="player" sid="241670098373019">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="554961468883544">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="938491896696587">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199142216495972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanah" sid="655727227193340">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="392536616406891">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495682521446448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="4.06452" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tiang" sid="685352464521788">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="615720052854741">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107789714803415" speed="5">
+                    <frame duration="1" hotspotX="3.81818" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tiang2" sid="877713246195714">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="927389945353935">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827697403270206" speed="5">
+                    <frame duration="1" hotspotX="1.76316" hotspotY="-0.223301" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tiang3" sid="780330553468144">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="598641501886681">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912195372973673" speed="5">
+                    <frame duration="1" hotspotX="0.555556" hotspotY="-0.0862069" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="koin" sid="354810381921176">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="924585329819096" speed="5">
+                    <frame duration="1" hotspotX="0.461538" hotspotY="1.69231">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="koin2" sid="808666646837171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="590176127220434" speed="5">
+                    <frame duration="1" hotspotX="1.70588" hotspotY="1.82353" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="score" sid="461318709259659">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="score" sid="677867181089812" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="jebakan" sid="154559310888287">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="944453110544676">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="979059110416205" speed="5">
+                    <frame duration="1" hotspotX="0.714286" hotspotY="0.690476" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="koin3" sid="934466586691885">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921225310788772" speed="5">
+                    <frame duration="1" hotspotX="6.63636" hotspotY="4.27273" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="251944220859094">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
